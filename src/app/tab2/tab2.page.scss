@@ -1,0 +1,15 @@
+.boton-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ocupa toda la pantalla */
+  }
+  
+  /* Definición de un azul claro personalizado */
+  ion-button[color="blue"] {
+    --background: #69bfff;
+    --background-activated: #4aaef5;
+    --background-focused: #4aaef5;
+    --color: white;
+  }
+  
